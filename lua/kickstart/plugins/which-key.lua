@@ -57,6 +57,12 @@ return {
         },
       },
 
+
+      triggers = {
+        { '<auto>', mode = 'nixsotc' },
+        { 's', mode = { 'n', 'v' } },
+      },
+
       -- Document existing key chains
       spec = {
         { '<leader>s', group = '[S]earch' },
